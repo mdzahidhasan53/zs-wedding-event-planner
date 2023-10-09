@@ -1,0 +1,44 @@
+[
+    {
+      "id":1,
+      "name": "Premium Wedding Planning",
+      "image": "https://i.postimg.cc/tTJ0HXdS/p-w1.jpg",
+      "details": "we are creative in every aspect of the wedding planning , by being creative our wedding are more outstanding.",
+      "price": "$5000 - $7000"
+    },
+    {
+      "id":2,
+      "name": "Holud Stage Decor",
+      "image": "https://i.postimg.cc/8C0GcJCQ/holud1.jpg",
+      "details": "We're experts at creating innovative and eye-catching themed event decor.",
+      "price": "$3000 - $4000 "
+    },
+    {
+      "id":3,
+      "name": "Wedding Entrance",
+      "image": "https://i.postimg.cc/C50QxSbp/royel-wedding.jpg",
+      "details": " We have the sense fresh, new and original ideas that will ensure the event we organise is successful, unique and memorable..",
+      "price": "$2500 - $3500"
+    },
+    {
+      "id":4,
+      "name": "Wedding Stage Design",
+      "image": "https://i.postimg.cc/W1xS4sPY/w-stage1.jpg",
+      "details": "we can style every surface of your event venue, from floor to ceiling and everything in-between.",
+      "price": "$1000 - $2000 "
+    },
+    {
+      "id":5,
+      "name": "Reception Stage Decor",
+      "image": "https://i.postimg.cc/DyJXwLyF/w-reception1.jpg",
+      "details": "we can style every surface of your event venue, from floor to ceiling and everything in-between.",
+      "price": "$5500 - $15000"
+    },
+    {
+      "id":6,
+      "name": "Wedding Photography",
+      "image": "https://i.postimg.cc/65bxY4d7/photography-5.jpg",
+      "details": "Captures life's important moments    !!!",
+      "price": "$2000 - $4000"
+    }
+]
