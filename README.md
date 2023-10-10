@@ -1,5 +1,5 @@
 # Z Wedding Event Planner
-## live link:
+## live link: https://zs-wedding-event-planner.web.app/
 
 # Project feature:
 
