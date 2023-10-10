@@ -1,14 +1,22 @@
+import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../../../providers/AuthProvider";
 
 const Navbar = () => {
+  const { user, logOut } = useContext(AuthContext);
 
+  const handleSignOut = () =>{
+      logOut()
+      .then()
+      .catch()
+  }
   const navLinks = <>
-    <NavLink to="/"><li><a>Home</a></li></NavLink>
-    <NavLink to="/about"><li><a>About Us</a></li></NavLink>
-    <NavLink to="/services"><li><a>Services</a></li></NavLink>
-    <NavLink to="/contact"><li><a>Contact</a></li></NavLink>
-    <NavLink to="/register"><li><a>Register</a></li></NavLink>
-    <NavLink to="/blog"><li><a>Blog</a></li></NavLink>
+    <li><NavLink to="/"><a>Home</a></NavLink></li>
+    <li><NavLink to="/about"><a>About Us</a></NavLink></li>
+    <li><NavLink to="/services"><a>Services</a></NavLink></li>
+    <li><NavLink to="/contact"><a>Contact</a></NavLink></li>
+    <li><NavLink to="/register"><a>Register</a></NavLink></li>
+    <li><NavLink to="/blog"><a>Blog</a></NavLink></li>
 
 
   </>
@@ -36,7 +44,13 @@ const Navbar = () => {
             <img src="https://i.postimg.cc/gjBvqdS1/avatar.png" />
           </div>
         </div>
-        <Link to="/login"><a className="btn normal-case">Login</a></Link>
+        {
+          user ? 
+          <a onClick={handleSignOut} className="btn normal-case">SignOut</a>
+          :
+          <Link to="/login"><a className="btn normal-case">Login</a></Link>
+        }
+        
       </div>
     </div>
   );

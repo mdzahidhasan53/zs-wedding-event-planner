@@ -9,9 +9,10 @@ const Intro = () => {
       }, []);
     return (
         <div className="mt-24 grid grid-flow-row-dense grid-cols-7">
-            <div data-aos="fade-right"
-             data-aos-offset="300"
-             data-aos-duration="3000"
+            <div 
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-duration="3000"
              data-aos-easing="ease-in-sine"
             className="col-span-2">
                 <img src="https://i.postimg.cc/QMZzFYxg/home3-01.jpg" alt="" />
@@ -25,9 +26,10 @@ const Intro = () => {
                     <button className="btn bg-[rgb(206,130,114)] text-white hover:text-black">Learn More</button>
                 </div>
             </div>
-            <div data-aos="fade-left" 
-             data-aos-offset="300"
-             data-aos-duration="3000"
+            <div 
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-duration="3000"
              data-aos-easing="ease-in-sine"
             className=" flex flex-col justify-center col-span-2">
                 <img  src="https://i.postimg.cc/mgYw5LBM/home3-02.jpg" alt="" />
